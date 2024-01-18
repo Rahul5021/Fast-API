@@ -1,0 +1,5 @@
+#misc
+/venv
+.env
+/_pycache_
+/app/__pycache__
