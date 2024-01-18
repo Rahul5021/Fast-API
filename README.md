@@ -37,4 +37,16 @@ This FastAPI application provides a simple backend for managing blog posts and u
     SECRET_KEY=yoursecretkey
 
 ## Project Structure
-- 
+- '/app' : Contains application-specific modules.
+    - '/auth' :  Authentication-related modules.
+    - 'models.py' : Data models and schemas.
+- '/venv' : Virtual environment for dependencies.
+- '.env' : Configuration file for environment variables.
+- 'main.py' : Main application file
+- 'requirements.txt' : List of dependencies
+
+## Contributing
+Contributions are welcome! If you find any issues or have suggestions, please open an issue or create a pull request.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
